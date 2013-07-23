@@ -25,6 +25,12 @@ import java.net.URLEncoder;
 import java.util.LinkedList;
 import java.util.List;
 
+import oauth.signpost.OAuthConsumer;
+import oauth.signpost.commonshttp.CommonsHttpOAuthConsumer;
+import oauth.signpost.exception.OAuthCommunicationException;
+import oauth.signpost.exception.OAuthExpectationFailedException;
+import oauth.signpost.exception.OAuthMessageSignerException;
+
 public class SnowShoeActivity extends Activity {
 
     private Boolean stampBeingChecked = false;
@@ -92,7 +98,6 @@ public class SnowShoeActivity extends Activity {
 
         @Override
         protected Void doInBackground(Void... arg0) {
-            playSound();
             goOnline();
             return null;
         }

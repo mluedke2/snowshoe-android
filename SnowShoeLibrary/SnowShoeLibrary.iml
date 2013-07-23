@@ -68,6 +68,9 @@
     <orderEntry type="jdk" jdkName="Android 4.2.2" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="support-v4-13.0.0" level="project" />
+    <orderEntry type="library" name="commons-codec-1.6" level="project" />
+    <orderEntry type="library" name="signpost-commonshttp4-1.2.1.1" level="project" />
+    <orderEntry type="library" name="signpost-core-1.2.1.1" level="project" />
   </component>
 </module>
 
