@@ -1,13 +1,13 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1374558239000 270 1b96b96e4b5177d8d28923c567681b9bd03ef3c6 /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/values-sw720dp-land/values.xml
-1374558239000 787 e7b28e4bf69e7f3ae1a083b90e62598fb5a560b2 /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/layout/activity_main.xml
-1374558239000 1188 427f47af232baa34ee6e91520b42fab049783900 /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/values/values.xml
-1374558239000 3156 be9d6d2174e9cbaabca59e8090160434dbd60002 /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/drawable-mdpi/ic_launcher.png
-1374558239000 372 d1ca08bca9c318954e3d18fc1997a1d67bd10784 /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/menu/snow_shoe.xml
-1374558239000 339 59fc3031abc3f0ea4004e7566445da1dedac7dfa /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/values-v11/values.xml
-1374558239000 353 c22ba095f0497898b018b967b7fea8a02ef433e7 /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/values-v14/values.xml
-1374558239000 18087 8d35b7c0e81c9caf7ee547905d69c9542a08b87f /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
-1374558239000 6120 ced3785afb467e5670c9c7db0d3a345d15454ea5 /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/drawable-hdpi/ic_launcher.png
-1374558239000 9487 7e58a59b9c3cf7a7a1df12376c329591dd31f5e4 /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/drawable-xhdpi/ic_launcher.png
+1374559976000 270 1b96b96e4b5177d8d28923c567681b9bd03ef3c6 /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/values-sw720dp-land/values.xml
+1374559976000 820 cfed27ee5b9e6723c708b0423660090b926ae82c /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/layout/activity_main.xml
+1374559976000 1188 427f47af232baa34ee6e91520b42fab049783900 /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/values/values.xml
+1374559976000 3156 be9d6d2174e9cbaabca59e8090160434dbd60002 /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/drawable-mdpi/ic_launcher.png
+1374559976000 372 d1ca08bca9c318954e3d18fc1997a1d67bd10784 /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/menu/snow_shoe.xml
+1374559976000 339 59fc3031abc3f0ea4004e7566445da1dedac7dfa /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/values-v11/values.xml
+1374559976000 353 c22ba095f0497898b018b967b7fea8a02ef433e7 /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/values-v14/values.xml
+1374559976000 18087 8d35b7c0e81c9caf7ee547905d69c9542a08b87f /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
+1374559976000 6120 ced3785afb467e5670c9c7db0d3a345d15454ea5 /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/drawable-hdpi/ic_launcher.png
+1374559976000 9487 7e58a59b9c3cf7a7a1df12376c329591dd31f5e4 /Users/mluedke2/AndroidStudioProjects/SnowShoeLibraryProject/SnowShoeLibrary/build/res/all/debug/drawable-xhdpi/ic_launcher.png

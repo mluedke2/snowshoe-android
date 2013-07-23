@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="sign">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SnowShoeLibrary/sign.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SnowShoeLibrary/sign.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
