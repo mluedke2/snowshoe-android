@@ -10,7 +10,6 @@ import android.view.MotionEvent;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
-import org.apache.http.StatusLine;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
@@ -122,14 +121,7 @@ public class SnowShoeActivity extends Activity {
             // put together a query String
             StringBuilder queryBuilder = new StringBuilder();
 
-            queryBuilder.append("http://beta.snowshoestamp.com/api/stamp?");
-
-			/*
-			queryBuilder.append("app_secret=");
-			queryBuilder.append(URLEncoder.encode(YOUR_APP_SECRET, "UTF-8"));
-
-			queryBuilder.append("&app_id=");
-			queryBuilder.append(URLEncoder.encode(YOUR_APP_ID, "UTF-8")); */
+            queryBuilder.append("http://beta.snowshoestamp.com/api/v2/stamp?");
 
             queryBuilder.append("&x1=");
             queryBuilder
@@ -171,12 +163,8 @@ public class SnowShoeActivity extends Activity {
             queryBuilder
                     .append(URLEncoder.encode("" + yPoints.get(4), "UTF-8"));
 
-            queryBuilder.append("&platform=android");
-
-            queryBuilder.append("&useSource=");
-            queryBuilder.append(URLEncoder.encode(getPackageName(), "UTF-8"));
-
             Log.i("query", queryBuilder.toString());
+
             HttpGet httpGet = new HttpGet(queryBuilder.toString());
 
             OAuthConsumer consumer = new CommonsHttpOAuthConsumer(
@@ -184,8 +172,9 @@ public class SnowShoeActivity extends Activity {
                     YOUR_APP_SECRET);
             consumer.setTokenWithSecret("", "");
 
+
             try {
-                consumer.sign(httpGet);;
+                consumer.sign(httpGet);
             } catch (OAuthMessageSignerException e) {
                 e.printStackTrace();
             } catch (OAuthExpectationFailedException e) {
@@ -194,11 +183,7 @@ public class SnowShoeActivity extends Activity {
                 e.printStackTrace();
             }
 
-
             HttpResponse response = client.execute(httpGet);
-            StatusLine statusLine = response.getStatusLine();
-            int statusCode = statusLine.getStatusCode();
-            if (statusCode >= 200 && statusCode <= 299) {
                 HttpEntity entity = response.getEntity();
                 InputStream content = entity.getContent();
                 BufferedReader reader = new BufferedReader(
@@ -208,11 +193,7 @@ public class SnowShoeActivity extends Activity {
                     builder.append(line);
                 }
 
-            } else {
-
-                this.stampResult = "error";
-
-            }
+                this.stampResult = builder.toString();
 
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
@@ -222,7 +203,6 @@ public class SnowShoeActivity extends Activity {
             e.printStackTrace();
         }
 
-        this.stampResult = builder.toString();
         onStampResult();
 
     }
