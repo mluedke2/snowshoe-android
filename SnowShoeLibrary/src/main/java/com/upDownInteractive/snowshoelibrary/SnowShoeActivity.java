@@ -36,7 +36,7 @@ public class SnowShoeActivity extends Activity {
     private static List<Float> xPoints = new LinkedList<Float>();
     private static List<Float> yPoints = new LinkedList<Float>();
     private String stampResult = "none";
-    public String YOUR_APP_ID = "";
+    public String YOUR_APP_KEY = "";
     public String YOUR_APP_SECRET = "";
 
     @Override
@@ -168,7 +168,7 @@ public class SnowShoeActivity extends Activity {
             HttpGet httpGet = new HttpGet(queryBuilder.toString());
 
             OAuthConsumer consumer = new CommonsHttpOAuthConsumer(
-                    YOUR_APP_ID,
+                    YOUR_APP_KEY,
                     YOUR_APP_SECRET);
             consumer.setTokenWithSecret("", "");
 

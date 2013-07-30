@@ -93,7 +93,7 @@
       <file leaf-file-name="SnowShoeActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SnowShoeLibrary/src/main/java/com/upDownInteractive/snowshoelibrary/SnowShoeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="211" column="21" selection-start="6815" selection-end="6821" vertical-scroll-proportion="0.49720672" vertical-offset="3482" max-vertical-offset="4020">
+            <state line="206" column="0" selection-start="6759" selection-end="6759" vertical-scroll-proportion="9.944134" vertical-offset="0" max-vertical-offset="4020">
               <folding />
             </state>
           </provider>
@@ -509,6 +509,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -523,7 +524,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -670,7 +670,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SnowShoeLibrary/src/main/java/com/upDownInteractive/snowshoelibrary/SnowShoeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="211" column="21" selection-start="6815" selection-end="6821" vertical-scroll-proportion="0.49720672" vertical-offset="3482" max-vertical-offset="4020">
+        <state line="206" column="0" selection-start="6759" selection-end="6759" vertical-scroll-proportion="9.944134" vertical-offset="0" max-vertical-offset="4020">
           <folding />
         </state>
       </provider>
