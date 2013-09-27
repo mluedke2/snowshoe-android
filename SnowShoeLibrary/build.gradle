@@ -14,9 +14,9 @@ repositories {
 
 dependencies {
     compile 'com.android.support:support-v4:13.0.+'
-    compile files('libs/commons-codec-1.6.jar')
-    compile files('libs/signpost-commonshttp4-1.2.1.1.jar')
-    compile files('libs/signpost-core-1.2.1.1.jar')
+    compile files('src/main/libs/commons-codec-1.6.jar')
+    compile files('src/main/libs/signpost-commonshttp4-1.2.1.1.jar')
+    compile files('src/main/libs/signpost-core-1.2.1.1.jar')
 }
 
 android {

@@ -5,6 +5,7 @@ import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
 import android.view.MotionEvent;
 
 import org.apache.http.HttpEntity;
@@ -203,10 +204,12 @@ public class SnowShoeActivity extends Activity {
         }
 
         onStampResult();
+
     }
 
     public void onStampResult() {
 
         Log.i("result", "result is " + this.stampResult);
+
     }
 }

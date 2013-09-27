@@ -7,7 +7,7 @@
       <root url="jar://$PROJECT_DIR$/SnowShoeLibrary/commons-codec-1.6.jar!/" />
       <root url="jar://$PROJECT_DIR$/SnowShoeLibrary/commons-codec-1.6.jar!/" />
       <root url="jar://$PROJECT_DIR$/SnowShoeLibrary/commons-codec-1.6.jar!/" />
-      <root url="jar://$PROJECT_DIR$/SnowShoeLibrary/libs/commons-codec-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SnowShoeLibrary/src/main/libs/commons-codec-1.6.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
