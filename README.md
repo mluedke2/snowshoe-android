@@ -1,7 +1,7 @@
 Android wrapper for SnowShoe SDK v2
 ===============================
 
-This repo contains an example project using the [SnowShoe Stamp](http://www.snowshoestamp.com). Download the example project (built for Android Studio) to see how easy it is to drop in [SnowShoe](http://www.snowshoestamp.com) functionality. OAuth 1.0a and all that is built-in.
+This repo contains an example project using the [SnowShoe Stamp](http://www.snowshoestamp.com). Download the example project (built for Android Studio, also compatible with Eclipse) to see how easy it is to drop in [SnowShoe](http://www.snowshoestamp.com) functionality. OAuth 1.0a and all that is built-in.
 
 Import The Project into Android Studio
 --------------------------------------
