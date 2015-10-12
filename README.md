@@ -1,3 +1,5 @@
+**DEPRECATED. Please use [snowshoe-android-v2](https://github.com/mluedke2/snowshoe-android-v2) instead.**
+
 Android wrapper for SnowShoe
 ============================
 
